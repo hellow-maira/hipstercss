@@ -1,0 +1,41 @@
+body{
+    background-image:url("bck5.jpeg");
+    background-blend-mode:multiply;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color:grey;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+.menu{
+    background-color: whitesmoke;
+    backdrop-filter: blur(10px);
+}
+
+a{
+    text-decoration: none;
+    color:crimson;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.menu li{
+    list-style: none;
+}
+
+.title_1, .subtitle_1{
+    color: white;
+    text-align: center;
+}
+
+.subtitle_1{
+    font-style: italic;
+}
